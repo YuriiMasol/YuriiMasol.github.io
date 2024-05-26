@@ -1,0 +1,28 @@
+:root {
+    /* основные стили (index) */
+    --a-color: #030605; /* цвет текста ссылок */
+    --btn-color: white; /* цвет текста кнопок */
+    --btn-b-color: #e4e4e4; /* цвет бордера кнопки */
+    --btn-bg-color: #28887A; /* цвет заливки кнопки */
+
+    /* стили hover button */
+    --btnh-color: #28887A; /* цвет текста кнопок (hover) */
+    --btnh-b-color: #e4e4e4; /* цвет бордера кнопки (hover) */
+    --btnh-bg-color: #28887A; /* цвет заливки кнопки (hover) */
+
+    /* стили (header) */
+    --bb-color: rgba(3, 5, 6, 0.32); /* стиль бордера (border-bottom) */
+    --nlh-bb-color: rgba(3, 5, 6, 0.8); /* стиль nav-link hover бордера (border-bottom) */
+}
+
+/*
+    --bg: rgba(0, 0, 0, 0.5);
+    --color: #fff;
+    --second-color: rgba(0, 0, 0, 0.5);
+
+    --dark-color: rgba(0, 0, 0, 0.5);
+    --light-color: #fff;
+
+    --dark-second-color: #03e9f4;
+    --light-second-color: #380056;
+*/

@@ -1,0 +1,76 @@
+@import url('./var.css');
+
+/* HEADER Шапка стили */
+
+.header {
+    height: 118px;
+    /* background: #fde8e8; заливка */
+    border-bottom: 1px solid var(--bb-color);
+}
+/* container с 3я div: blok-logo, nav-blok, action */
+.header__container {
+    height: 118px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+/* Блок (div) с логотипом */ 
+.header__blok-logo {
+    flex: 0 0 20%;  
+}
+
+.header__logo-span {
+    font-family: 'Philosopher';
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 1.3;
+    font-weight: bold;
+}
+/* Блок (nav) с навигацией */
+.header__nav-blok {
+    flex: 0 0 50%;
+}
+
+.header__desktop-nav-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+}    
+
+.header__nav-item {
+    font-size: 20px;
+    line-height: 1.3;
+    font-weight: bold;
+    position: relative;
+    white-space: nowrap;
+}
+
+.header__nav-link:hover::before {
+    content:'';
+    position:absolute;
+    width: 100%;
+    right: 18%;
+    top: 30px;
+    cursor: pointer;
+    border-bottom: 1px solid var(--nlh-bb-color);    
+}
+
+.header__nav-item:not(:last-child) {
+    margin-right: 50px;
+}
+
+/* Блок (action) с действием, кнопка */
+.header__action {
+    flex: 0 0 30%;
+    text-align: right;
+    font-family: 'Ysabeau Infant';
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.3;
+}
+
+.header__mobile-nav-list {
+    display: none;
+}
+
